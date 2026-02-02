@@ -16,6 +16,6 @@ const menuRoute = require('./routes/menuRoute');
 app.use('/menu',menuRoute);
 
 const PORT = process.env.PORT;
-app.listen(PORT,()=>{
+app.listen(3000 || PORT,()=>{
     console.log(`Server started at port : ${PORT}`);  
 });
